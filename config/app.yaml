@@ -1,0 +1,11 @@
+log:
+  path: ./logs/app.log
+  mode: debug # debug, release, test
+redis:
+  addr: localhost:6379
+  password: ""
+  db: 0
+  pool_size: 100
+  min_idle_conns: 10
+  max_idle_conns: 100
+  max_active_conns: 1000
